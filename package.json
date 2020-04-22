@@ -1,6 +1,6 @@
 {
-  "name": "resume-nextjs",
-  "lastestUpdatedAt": "2020-04-12",
+  "name": "resume",
+  "lastestUpdatedAt": "2020-04-23",
   "version": "1.0.2",
   "description": "Static HTML based RESUME made with next.js",
   "main": "index.js",
@@ -18,10 +18,10 @@
     "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://daeheekim93.github.io/resume-nextjs/",
+  "homepage": "https://daeheekim93.github.io/resume/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DaeHeeKim93/resume-nextjs.git"
+    "url": "git+https://github.com/DaeHeeKim93/resume.git"
   },
   "keywords": [
     "resume",
