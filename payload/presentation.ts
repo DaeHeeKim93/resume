@@ -14,7 +14,8 @@ const presentation: IPresentation.Payload = {
         },
         {
           content: 'Github.io:',
-          postHref: 'https://fairbrite.github.io/2019/DevStarLeague/20190720/presentation/02_react_begineer.pdf/',
+          postHref:
+            'https://fairbrite.github.io/2019/DevStarLeague/20190720/presentation/02_react_begineer.pdf/',
         },
       ],
     },
@@ -28,7 +29,8 @@ const presentation: IPresentation.Payload = {
         },
         {
           content: 'Onedrive Live:',
-          postHref: 'https://onedrive.live.com/view.aspx?resid=318484C5AAD6B73D!677774&ithint=file%2cpptx&authkey=!ABsa0_95PM9a2Z4',
+          postHref:
+            'https://onedrive.live.com/view.aspx?resid=318484C5AAD6B73D!677774&ithint=file%2cpptx&authkey=!ABsa0_95PM9a2Z4',
         },
       ],
     },

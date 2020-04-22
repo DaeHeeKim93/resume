@@ -12,7 +12,6 @@ const openSource: IOpenSource.Payload = {
           content: 'https://github.com/scouter-project/scouter',
           href: 'https://github.com/scouter-project/scouter',
         },
-
       ],
     },
   ],

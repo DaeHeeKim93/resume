@@ -16,7 +16,17 @@ const experience: IExperience.Payload = {
         '레거시 서비스에 Junit4 + Mokito를 이용한 SingleTon Controller Test 도입',
         '해당 서비스 모니터링 도입 및 장애 개선 ( Scouter, Whatap )',
       ],
-      skillKeywords: ['Spring', 'React.js', 'Classic ASP', 'ASP.NET', 'Jquery', 'Mybatis', 'MSSQL', 'MySQL', 'MariaDB'],
+      skillKeywords: [
+        'Spring',
+        'React.js',
+        'Classic ASP',
+        'ASP.NET',
+        'Jquery',
+        'Mybatis',
+        'MSSQL',
+        'MySQL',
+        'MariaDB',
+      ],
     },
   ],
 };
