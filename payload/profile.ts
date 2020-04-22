@@ -1,7 +1,7 @@
-import { faEnvelope, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faEnvelope, faPhone, faRssSquare } from '@fortawesome/free-solid-svg-icons';
 import { faBell } from '@fortawesome/free-regular-svg-icons';
-import { faGithub, faFacebook, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import image from '../asset/_sample.jpg';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import image from '../asset/profile.jpg';
 import { IProfile } from '../component/profile/IProfile';
 
 const profile: IProfile.Payload = {
@@ -10,12 +10,12 @@ const profile: IProfile.Payload = {
   // image: 'https://resume.yowu.dev/static/image/profile_2019.png',
   image,
   name: {
-    title: 'Lorem ipsum',
-    small: '(LI)',
+    title: '김대희',
+    small: '(Kim Dae Hee)',
   },
   contact: [
     {
-      title: 'foo@bar.xyz',
+      title: 'anyozcall@gmail.com',
       link: '#',
       icon: faEnvelope,
     },
@@ -25,23 +25,23 @@ const profile: IProfile.Payload = {
       badge: true,
     },
     {
-      title: 'https://github.com',
-      link: 'https://github.com/uyu423/resume-nextjs',
+      title: 'https://github.com/DaeHeeKim93',
+      link: 'https://github.com/DaeHeeKim93',
       icon: faGithub,
     },
     {
-      link: 'https://www.facebook.com/iu.loen',
-      icon: faFacebook,
+      title: 'https://www.linkedin.com/in/daehee-kim-930902',
+      link: 'https://www.linkedin.com/in/daehee-kim-930902',
+      icon: faLinkedin,
     },
     {
-      title: 'YouTube',
-      link: 'https://www.youtube.com/channel/UC3SyT4_WLHzN7JmHQwKQZww',
-      // icon: faRss,
-      icon: faYoutube,
+      title: 'https://www.popit.kr/author/DaeHee Kim',
+      link: 'https://www.popit.kr/author/DaeHee Kim',
+      icon: faRssSquare,
     },
   ],
   notice: {
-    title: "This resume is a sample page of 'https://github.com/uyu423/resume-nextjs'.",
+    title: "이메일로 연락 주시면 빠르게 답변드립니다.",
     icon: faBell,
   },
 };

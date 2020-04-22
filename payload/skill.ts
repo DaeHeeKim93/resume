@@ -1,14 +1,18 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const backend: ISkill.Skill = {
-  category: 'Back-end',
+  category: 'Back-End',
   items: [
     {
-      title: 'Node.js',
+      title: 'Spring',
       level: 3,
     },
     {
-      title: 'AWS',
+      title: 'Flask',
+      level: 2,
+    },
+    {
+      title: 'Classic ASP',
       level: 3,
     },
     {
@@ -16,16 +20,8 @@ const backend: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
-    },
-    {
-      title: 'C/C++',
-      level: 1,
+      title: 'ASP.NET',
+      level: 3,
     },
   ],
 };
@@ -34,66 +30,76 @@ const database: ISkill.Skill = {
   category: 'Database',
   items: [
     {
+      title: 'MSSQL',
+      level: 3,
+    },
+    {
       title: 'MySQL',
       level: 3,
     },
     {
-      title: 'Oracle',
-      level: 2,
+      title: 'MariaDB',
+      level: 3,
     },
     {
-      title: 'Redis',
+      title: 'PostgreSQL',
       level: 2,
-    },
-    {
-      title: 'MongoDB',
-      level: 1,
     },
   ],
 };
 
 const frontend: ISkill.Skill = {
-  category: 'Front-end',
+  category: 'Front-End',
   items: [
-    {
-      title: 'Next.js',
-      level: 2,
-    },
     {
       title: 'React.js',
       level: 2,
     },
     {
-      title: 'javascript',
+      title: 'HTML',
       level: 2,
     },
     {
-      title: 'HTML/CSS',
+      title: 'Jquery',
+      level: 2,
+    },
+    {
+      title: 'Vue.JS',
+      level: 1,
+    },
+    {
+      title: 'Javascript',
       level: 2,
     },
   ],
 };
 
 const etc: ISkill.Skill = {
-  category: 'Etc',
+  category: 'IDE + Tools',
   items: [
+    {
+      title: 'IntelliJ',
+    },
+    {
+      title: 'Visual Studio',
+    },
+    {
+      title: 'WebStorm',
+    },
+    {
+      title: 'DataGrip',
+    },
+    {
+      title: 'Scouter',
+    },
     {
       title: 'Ubuntu',
     },
     {
-      title: 'Vim',
+      title: 'Whatap',
     },
     {
-      title: 'Security',
-    },
-    {
-      title: 'VS Code',
-    },
-    {
-      title: 'Jira',
-    },
-    {
-      title: 'Confluence',
+      title: 'SVN / Git',
     },
   ],
 };
