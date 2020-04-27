@@ -104,3 +104,11 @@ dist
 .tern-port
 
 .DS_Store
+.idea/codeStyles/codeStyleConfig.xml
+.idea/codeStyles/Project.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/resume.iml
+.idea/vcs.xml
+.idea/workspace.xml
