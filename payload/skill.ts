@@ -9,7 +9,7 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'Flask',
-      level: 2,
+      level: 1,
     },
     {
       title: 'Classic ASP',
@@ -21,7 +21,7 @@ const backend: ISkill.Skill = {
     },
     {
       title: 'ASP.NET',
-      level: 3,
+      level: 2,
     },
   ],
 };

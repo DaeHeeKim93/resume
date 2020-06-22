@@ -4,71 +4,71 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
-      title: '맘앤톡 이벤트 신청 템플릿 구축',
+      title: '비상교육 전체 Scouter 도입 및 유지보수 ',
+      startedAt: '2019-09',
+      where: 'Visang Education',
+      descriptions: [
+        { content: 'Java 8, CentOS 7' },
+        { content: 'Scouter 도입 및 기타 환경 설정 작업' },
+        { content: '전사 Scouter 문서화 및 계정 표준화 등의 작업 수행' },
+        { content: 'Telegram Plugin, Email Plugin, Scouter Paper의 Plugin 도입' },
+      ],
+    },
+    {
+      title: 'TOPIK 모의고사 서비스 도입 및 개발 ',
+      startedAt: '2020-05',
+      endedAt: '2020-06',
+      where: 'Visang Education',
+      descriptions: [
+        { content: 'ASP 3, IIS, MSSQL, JQuery' },
+        { content: 'TOPIK 시험과 유사한 모의고사 상품 시스템 개발' },
+        { content: 'TOPIK 시험(듣기/쓰기/읽기) 시스템 및 성적표, 첨삭 기능 개발 ' },
+        { content: 'B2C 이외에도 B2B에서 성적표 및 관리자 시스템에서 첨삭 가능 할 수 있도록 수정' },
+      ],
+    },
+    {
+      title: 'Momntalk 이벤트 신청 및 관리 시스템 템플릿 개발 ',
       startedAt: '2019-05',
       endedAt: '2019-07',
       where: 'Visang Education',
       descriptions: [
-        { content: 'Spring, Junit4, Mokito' },
-        {
-          content:
-            '사용자 수의 증가에 따른 초과 수량 및 시간에 따른 상품 배정, 초과 수량 조절을 위한 템플릿 개발 프로젝트',
-        },
-        { content: '이벤트 번호와 시간 설정, 갯수 제한을 통한 이벤트 제한 템플릿 기능 개발' },
-        {
-          content:
-            '@Transactional(isolation = Isolation.READ_UNCOMMITTED)을 사용하여 Dirty Read이지만,\n' +
-            '많은 유저 동시 신청시 이전의 결과가 COMMIT 되지 않아도 합산되게 하여 초과 수량 신청 방지',
-        },
-        {
-          content:
-            'Junit4ClassRunner 및 standaloneSetup, @Spy 객체 등을 활용하여, 입력값은 이벤트 번호만 입력하면, 템플릿화 한 신청 양식을 통해 자동으로 신청까지 테스트할 수 있는 테스트 기능 개발',
-        },
+        { content: 'Spring 3.2 , MariaDB, JQuery' },
+        { content: '브랜드 사이트의 이벤트 신청 및 전체적인 시스템 템플릿 구축 및 개발' },
+        { content: '전체적인 신청 유형 ( 4가지 이상 ) 을 1가지 시스템으로 통합 및 커스텀하게 신청 가능하도록 수정' },
+        { content: '시간대에 따른 제한 수량, 확률 조정 및 기존 이벤트와 비교할 수 있도록 개발' },
       ],
     },
     {
-      title: '비바샘 모바일 이벤트 템플릿 구축',
+      title: 'Vivasam 모바일 이벤트 기능 도입 및 개발  ',
       startedAt: '2019-04',
       endedAt: '2019-07',
       where: 'Visang Education',
       descriptions: [
-        { content: 'Spring, React.JS' },
-        { content: '기존 PC 이벤트를 Mobile에서도 신청할 수 있도록 이벤트 템플릿 기능 개발' },
-        {
-          content:
-            'Axios를 이용하여 Spring, React 간의 요청사항을 처리하였고, 서버에서 필요한 값을 불러올때, 해당 값 검증 후 진행을 하여야 해서 async - await를 사용',
-        },
-        {
-          content:
-            '추후에 발생되는 Store 객체 및 Axios를 이용한 API 등에 대해 어떤 기능일지 확인 및 적용이 필요하여,해당 부분에 대해 작성 및 수정이 가능한 내부 URL Page 구축',
-        },
+        { content: 'Spring 3.2 , JQuery ( PC ) / Spring 4.3, React 16.5 ( Mobile ) ' },
+        { content: '기존 PC에서만 지원되던 이벤트를 모바일에서 참여 가능하도록 신규 기능 개발' },
+        { content: '모바일 사용자 기능 및 관리자에서 공개/비공개 및 제어 가능하도록 개발' },
       ],
     },
     {
-      title: '수기계좌 정산 기능 구축',
+      title: '계좌이체 수기정산 시스템 도입 및 개발 ',
       startedAt: '2018-03',
       endedAt: '2018-06',
       where: 'Visang Education',
       descriptions: [
         { content: 'Classic ASP, Jquery, Javascript' },
-        {
-          content:
-            '기존에 Excel로 관리되었던 수기 정산을 Admin System을 통한 등록 및 자동 정산 계산 기능 개발',
-        },
+        { content: '기존 Excel File로 수동 관리된 부분을 관리자 시스템에서 등록 및 결재, 자동 정산 계산으로 기능 개선' },
         { content: '예외 상품 및 상품 종류에 따른 정산이 바로 계산 될 수 있도록 개발' },
-        { content: 'Excel로 일일이 계산하던 방식에서 Admin을 통한 자동 계산 및 쉬운 수정 가능' },
       ],
     },
     {
-      title: 'KG INICIS 모바일 결제 기능 구축',
+      title: 'KG INICIS 모바일 결제 기능 개발 ',
       startedAt: '2018-03',
       endedAt: '2018-06',
       where: 'Visang Education',
       descriptions: [
         { content: 'Classic ASP, Jquery, Javascript' },
-        { content: 'KG INICIS를 이용한 모바일 결제 기능 개발' },
-        { content: '가상계좌, 계좌이체, 신용카드 모바일 결제' },
-        { content: '기존에 PC로만 결제 가능하던 것을 모바일로도 결제 할 수 있도록 함' },
+        { content: 'MasterTopik 시스템의 모바일 신용카드, 가상계좌, 계좌이체가 가능하도록 신규 기능 개발' },
+        { content: '기존의 PC 결재 오류 및 모바일 결재에 대해 개선 및 개발' },
       ],
     },
   ],

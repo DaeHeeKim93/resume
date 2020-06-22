@@ -5,8 +5,8 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    '언제나 꾸준히 노력하면 보답받는 날이 옵니다.',
-    '잘하는 개발자는 아니어도 꾸준히 오래 개발하는 개발자였으면 합니다.',
+    '많은 사람들이 제 서비스를 이용하는 순간에 잠시나마 행복이 있었으면 합니다.',
+    '좋은 서비를 항상 만드는 사람이 되도록 노력하고 계속 공부하고자 하는 개발자입니다.',
   ],
   sign: 'DaeHee Kim',
   // sign: packageJson.author.name,
