@@ -34,7 +34,10 @@ const project: IProject.Payload = {
       descriptions: [
         { content: 'Spring 3.2 , MariaDB, JQuery' },
         { content: '브랜드 사이트의 이벤트 신청 및 전체적인 시스템 템플릿 구축 및 개발' },
-        { content: '전체적인 신청 유형 ( 4가지 이상 ) 을 1가지 시스템으로 통합 및 커스텀하게 신청 가능하도록 수정' },
+        {
+          content:
+            '전체적인 신청 유형 ( 4가지 이상 ) 을 1가지 시스템으로 통합 및 커스텀하게 신청 가능하도록 수정',
+        },
         { content: '시간대에 따른 제한 수량, 확률 조정 및 기존 이벤트와 비교할 수 있도록 개발' },
       ],
     },
@@ -56,7 +59,10 @@ const project: IProject.Payload = {
       where: 'Visang Education',
       descriptions: [
         { content: 'Classic ASP, Jquery, Javascript' },
-        { content: '기존 Excel File로 수동 관리된 부분을 관리자 시스템에서 등록 및 결재, 자동 정산 계산으로 기능 개선' },
+        {
+          content:
+            '기존 Excel File로 수동 관리된 부분을 관리자 시스템에서 등록 및 결재, 자동 정산 계산으로 기능 개선',
+        },
         { content: '예외 상품 및 상품 종류에 따른 정산이 바로 계산 될 수 있도록 개발' },
       ],
     },
@@ -67,7 +73,10 @@ const project: IProject.Payload = {
       where: 'Visang Education',
       descriptions: [
         { content: 'Classic ASP, Jquery, Javascript' },
-        { content: 'MasterTopik 시스템의 모바일 신용카드, 가상계좌, 계좌이체가 가능하도록 신규 기능 개발' },
+        {
+          content:
+            'MasterTopik 시스템의 모바일 신용카드, 가상계좌, 계좌이체가 가능하도록 신규 기능 개발',
+        },
         { content: '기존의 PC 결재 오류 및 모바일 결재에 대해 개선 및 개발' },
       ],
     },
