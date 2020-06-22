@@ -68,8 +68,8 @@ const project: IProject.Payload = {
     },
     {
       title: 'KG INICIS 모바일 결제 기능 개발 ',
-      startedAt: '2018-03',
-      endedAt: '2018-06',
+      startedAt: '2018-01',
+      endedAt: '2018-03',
       where: 'Visang Education',
       descriptions: [
         { content: 'Classic ASP, Jquery, Javascript' },
