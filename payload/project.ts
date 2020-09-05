@@ -4,6 +4,16 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '비상교육 전체 Nexus 3 도입 및 유지보수  ',
+      startedAt: '2020-06',
+      where: 'Visang Education',
+      descriptions: [
+        { content: 'CentOS 7' },
+        { content: 'Nexus 3 SonaType 도입 및 기타 환경 설정 작업' },
+        { content: '전사 Nexus 문서화 및 Custom Library 규칙 설정' },
+      ],
+    },
+    {
       title: '비상교육 전체 Scouter 도입 및 유지보수 ',
       startedAt: '2019-09',
       where: 'Visang Education',
@@ -12,6 +22,17 @@ const project: IProject.Payload = {
         { content: 'Scouter 도입 및 기타 환경 설정 작업' },
         { content: '전사 Scouter 문서화 및 계정 표준화 등의 작업 수행' },
         { content: 'Telegram Plugin, Email Plugin, Scouter Paper의 Plugin 도입' },
+      ],
+    },
+    {
+      title: 'TOPIK 온라인 단어카드 서비스 도입 및 개발 ',
+      startedAt: '2020-07',
+      endedAt: '2020-09',
+      where: 'Visang Education',
+      descriptions: [
+        { content: 'ASP 3, IIS, MSSQL, JQuery' },
+        { content: '코로나19 환경으로 인한 비대면 수업에 활용하는 TOPIK 단어카드 서비스 개발' },
+        { content: '해당 서비스의 B2B, B2C 분류 및 관리자 기능 개발' },
       ],
     },
     {
