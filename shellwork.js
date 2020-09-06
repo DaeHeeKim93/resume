@@ -14,7 +14,7 @@ function judgeCnameCreation() {
 
   // ! 아래 정규표현식에 걸리면 github pages 도메인으로 간주하고 CNAME 을 생성하지 않는다.
   const githubIoRegex = /.+\.github\.io\/.+/;
-
+/*
   if (githubIoRegex.test(homepage)) {
     console.log(
       chalk.yellow(
@@ -22,7 +22,7 @@ function judgeCnameCreation() {
       ),
     );
     process.exit(0);
-  }
+  }*/
 
   // * 위 정규표현식에 걸리지 않았을 경우 Custom Domain 으로 간주하고 docs/CNAME 을 생성한다.
   const url = new URL(homepage);
