@@ -4,9 +4,22 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
+      title: '11ST STREET Corp. (11번가)',
+      position: 'Back-End Developer',
+      startedAt: '2020-11',
+      descriptions: [
+        'TBD',
+      ],
+      skillKeywords: [
+        'Spring',
+        'Oracle',
+      ],
+    },
+    {
       title: 'Visang Education (비상교육)',
       position: 'Back-End, Front-End Developer',
       startedAt: '2017-12',
+      endedAt: '2020-10',
       descriptions: [
         '비상교육 LMS 사이트 개발 및 유지보수',
         '비상교육 Scouter 도입 및 기타 환경 설정 작업',

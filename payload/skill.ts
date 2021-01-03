@@ -7,28 +7,16 @@ const backend: ISkill.Skill = {
       title: 'Spring',
       level: 3,
     },
-    {
-      title: 'Flask',
-      level: 1,
-    },
-    {
-      title: 'Classic ASP',
-      level: 3,
-    },
-    {
-      title: 'PHP',
-      level: 2,
-    },
-    {
-      title: 'ASP.NET',
-      level: 2,
-    },
   ],
 };
 
 const database: ISkill.Skill = {
   category: 'Database',
   items: [
+    {
+      title: 'Oracle',
+      level: 3,
+    },
     {
       title: 'MSSQL',
       level: 3,
@@ -40,10 +28,6 @@ const database: ISkill.Skill = {
     {
       title: 'MariaDB',
       level: 3,
-    },
-    {
-      title: 'PostgreSQL',
-      level: 2,
     },
   ],
 };
@@ -64,10 +48,6 @@ const frontend: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'Vue.JS',
-      level: 1,
-    },
-    {
       title: 'Javascript',
       level: 2,
     },
@@ -81,10 +61,7 @@ const etc: ISkill.Skill = {
       title: 'IntelliJ',
     },
     {
-      title: 'Visual Studio',
-    },
-    {
-      title: 'WebStorm',
+      title: 'Jenkins',
     },
     {
       title: 'DataGrip',
@@ -99,7 +76,7 @@ const etc: ISkill.Skill = {
       title: 'Whatap',
     },
     {
-      title: 'SVN / Git',
+      title: 'Git',
     },
   ],
 };

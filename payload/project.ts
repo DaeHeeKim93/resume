@@ -6,6 +6,7 @@ const project: IProject.Payload = {
     {
       title: '비상교육 전체 Nexus 3 도입 및 유지보수  ',
       startedAt: '2020-06',
+      endedAt: '2020-11',
       where: 'Visang Education',
       descriptions: [
         { content: 'CentOS 7' },
@@ -16,6 +17,7 @@ const project: IProject.Payload = {
     {
       title: '비상교육 전체 Scouter 도입 및 유지보수 ',
       startedAt: '2019-09',
+      endedAt: '2020-11',
       where: 'Visang Education',
       descriptions: [
         { content: 'Java 8, CentOS 7' },
