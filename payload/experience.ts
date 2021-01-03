@@ -7,13 +7,8 @@ const experience: IExperience.Payload = {
       title: '11ST STREET Corp. (11번가)',
       position: 'Back-End Developer',
       startedAt: '2020-11',
-      descriptions: [
-        'TBD',
-      ],
-      skillKeywords: [
-        'Spring',
-        'Oracle',
-      ],
+      descriptions: ['TBD'],
+      skillKeywords: ['Spring', 'Oracle'],
     },
     {
       title: 'Visang Education (비상교육)',
